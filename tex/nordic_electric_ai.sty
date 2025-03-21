@@ -1,0 +1,65 @@
+% nordic_electric_ai_fixed.sty - LaTeX style file for Nordic Electric AI theme
+% Inspired by modern AI aesthetics with Nordic/Freyja elements
+% Author: Lain. a.k.a Dima, Freyja & Amazon Q
+% Created: 2025-03-18
+% Modified: 2025-03-18 - Fixed hyperlink issues
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{nordic_electric_ai_fixed}[2025/03/18 Nordic Electric AI theme with fixed hyperlinks]
+
+% Load required packages
+\RequirePackage{xcolor}
+% Don't load hyperref here - it will be loaded by the main document
+
+% Define Nordic Electric AI color palette
+\definecolor{nordicBg}{RGB}{15, 21, 37}        % Deep blue background
+\definecolor{nordicFg}{RGB}{214, 229, 255}     % Snow white text
+\definecolor{nordicBlue}{RGB}{59, 158, 255}    % Electric fjord blue
+\definecolor{nordicCyan}{RGB}{32, 230, 214}    % Glacier cyan
+\definecolor{nordicPurple}{RGB}{153, 102, 255} % Freyja's royal purple
+\definecolor{nordicGreen}{RGB}{93, 240, 176}   % Nordic forest green
+\definecolor{nordicOrange}{RGB}{255, 158, 79}  % Amber like Nordic gold
+\definecolor{nordicYellow}{RGB}{245, 214, 127} % Gold like Freyja's tears
+\definecolor{nordicRed}{RGB}{255, 93, 143}     % Softer red
+\definecolor{nordicTeal}{RGB}{64, 217, 196}    % Nordic sea teal
+\definecolor{nordicPink}{RGB}{229, 113, 181}   % Nordic wildflower pink
+\definecolor{runeGold}{RGB}{230, 194, 118}     % Ancient rune gold
+
+% Section styling
+\renewcommand{\section}[1]{%
+  \pagebreak[3]%
+  \vspace{1.3\baselineskip}%
+  \phantomsection\addcontentsline{toc}{section}{#1}%
+  \noindent\llap{\textcolor{nordicPurple}{\scshape\smash{\parbox[t]{\marginparwidth}{\hyphenpenalty=10000\raggedright #1}}}}%
+  \vspace{-\baselineskip}\par%
+}
+
+% Heading styling
+\renewcommand{\makeheading}[2][]{%
+  \hspace*{-\marginparsep minus \marginparwidth}%
+  \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+    {\large \bfseries \textcolor{nordicBlue}{#2} \hfill \textcolor{nordicCyan}{#1}}\\[-0.15\baselineskip]%
+    \textcolor{nordicTeal}{\rule{\columnwidth}{1pt}}%
+  \end{minipage}%
+}
+
+% REMOVED: Hyperlink styling that was causing issues
+% \renewcommand{\href}[2]{\textcolor{nordicTeal}{\hyperref[#1]{#2}}}
+
+% Email styling - modified to not override href
+\renewcommand{\email}[1]{\textcolor{nordicGreen}{#1}}
+
+% URL styling - modified to not override href
+\renewcommand{\url}[1]{\textcolor{nordicBlue}{\texttt{#1}}}
+
+% Bold text styling
+\renewcommand{\textbf}[1]{\textcolor{nordicTeal}{\bfseries #1}}
+
+% Italic text styling
+\renewcommand{\textit}[1]{\textcolor{runeGold}{\itshape #1}}
+
+% Bullet points styling
+\renewcommand{\labelitemi}{\textcolor{nordicPurple}{$\bullet$}}
+
+% End of package
+\endinput
