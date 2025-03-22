@@ -1,0 +1,149 @@
+{
+  "name": "Nordic Electric AI",
+  "dark": true,
+  "author": "Cosmic Freyja Lab",
+  "editorScheme": "/theme/nordic-electric-ai.xml",
+  "ui": {
+    "*": {
+      "background": "#0f1525",
+      "foreground": "#d6e5ff",
+      "infoForeground": "#a0b4d7",
+      "selectionBackground": "#2d3450",
+      "selectionForeground": "#d6e5ff",
+      "selectionInactiveBackground": "#1e2840",
+      "disabledForeground": "#607090",
+      "disabledBackground": "#151e33",
+      "inactiveBackground": "#151e33",
+      "acceleratorForeground": "#9966ff",
+      "acceleratorSelectionForeground": "#9966ff",
+      "errorForeground": "#ff5d8f",
+      "borderColor": "#151e33",
+      "separatorColor": "#151e33"
+    },
+    "Button": {
+      "startBackground": "#151e33",
+      "endBackground": "#151e33",
+      "startBorderColor": "#2d3450",
+      "endBorderColor": "#2d3450",
+      "focusedBorderColor": "#9966ff",
+      "default": {
+        "foreground": "#d6e5ff",
+        "startBackground": "#9966ff",
+        "endBackground": "#9966ff",
+        "startBorderColor": "#9966ff",
+        "endBorderColor": "#9966ff",
+        "focusedBorderColor": "#20e6d6"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "#151e33",
+        "inactiveBackground": "#0f1525"
+      }
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "#2d3450",
+        "selectedForeground": "#d6e5ff"
+      },
+      "SearchField": {
+        "background": "#151e33",
+        "borderColor": "#2d3450"
+      },
+      "Advertiser": {
+        "background": "#151e33",
+        "foreground": "#a0b4d7",
+        "borderColor": "#2d3450"
+      }
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#151e33",
+        "inactiveBackground": "#0f1525"
+      },
+      "HeaderTab": {
+        "selectedBackground": "#2d3450",
+        "selectedInactiveBackground": "#1e2840",
+        "hoverBackground": "#1e2840",
+        "hoverInactiveBackground": "#151e33"
+      },
+      "Button": {
+        "hoverBackground": "#2d3450",
+        "selectedBackground": "#2d3450",
+        "selectedForeground": "#d6e5ff"
+      }
+    },
+    "EditorTabs": {
+      "background": "#0f1525",
+      "underlineColor": "#9966ff",
+      "inactiveUnderlineColor": "#607090",
+      "underlineHeight": 2,
+      "underlinedTabBackground": "#151e33"
+    },
+    "ProgressBar": {
+      "progressColor": "#9966ff",
+      "indeterminateStartColor": "#9966ff",
+      "indeterminateEndColor": "#20e6d6",
+      "trackColor": "#151e33"
+    },
+    "Link": {
+      "activeForeground": "#9966ff",
+      "hoverForeground": "#20e6d6",
+      "visitedForeground": "#e571b5",
+      "pressedForeground": "#e571b5"
+    },
+    "ScrollBar": {
+      "thumb": "#2d3450",
+      "thumbColor": "#2d3450",
+      "thumbBorderColor": "#2d3450",
+      "hoverThumbColor": "#3b4565",
+      "hoverThumbBorderColor": "#3b4565",
+      "trackColor": "#151e33"
+    },
+    "Tree": {
+      "selectionBackground": "#2d3450",
+      "modifiedItemForeground": "#ff9e4f",
+      "hoverBackground": "#1e2840"
+    },
+    "Table": {
+      "stripeColor": "#151e33",
+      "selectionBackground": "#2d3450",
+      "hoverBackground": "#1e2840"
+    },
+    "ActionButton": {
+      "hoverBackground": "#2d3450",
+      "pressedBackground": "#1e2840"
+    },
+    "Notification": {
+      "background": "#151e33",
+      "borderColor": "#2d3450",
+      "errorBackground": "#2a1520",
+      "errorBorderColor": "#ff5d8f",
+      "warningBackground": "#2a2015",
+      "warningBorderColor": "#ff9e4f",
+      "informativeBackground": "#152a20",
+      "informativeBorderColor": "#5df0b0"
+    },
+    "Editor": {
+      "background": "#0f1525",
+      "foreground": "#d6e5ff",
+      "shortcutForeground": "#9966ff"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#3b9eff",
+      "Actions.Green": "#5df0b0",
+      "Actions.Grey": "#a0b4d7",
+      "Actions.Red": "#ff5d8f",
+      "Actions.Yellow": "#e6c276",
+      "Actions.Purple": "#9966ff",
+      "Objects.Blue": "#3b9eff",
+      "Objects.Green": "#5df0b0",
+      "Objects.Grey": "#a0b4d7",
+      "Objects.Red": "#ff5d8f",
+      "Objects.Yellow": "#e6c276",
+      "Objects.Purple": "#9966ff"
+    }
+  }
+}

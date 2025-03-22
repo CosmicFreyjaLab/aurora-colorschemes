@@ -1,2 +1,5 @@
 .DS_Store
 Q-Context.md
+build/
+gradle/
+.gradle/
