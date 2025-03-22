@@ -3,6 +3,22 @@
   "dark": true,
   "author": "Cosmic Freyja Lab",
   "editorScheme": "/theme/nordic-electric-ai.xml",
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#3b9eff",
+      "Actions.Green": "#5df0b0",
+      "Actions.Grey": "#a0b4d7",
+      "Actions.Red": "#ff5d8f",
+      "Actions.Yellow": "#e6c276",
+      "Actions.Purple": "#9966ff",
+      "Objects.Blue": "#3b9eff",
+      "Objects.Green": "#5df0b0",
+      "Objects.Grey": "#a0b4d7",
+      "Objects.Red": "#ff5d8f",
+      "Objects.Yellow": "#e6c276",
+      "Objects.Purple": "#9966ff"
+    }
+  },
   "ui": {
     "*": {
       "background": "#0f1525",
@@ -35,11 +51,37 @@
         "focusedBorderColor": "#20e6d6"
       }
     },
+    "ComboBox": {
+      "background": "#151e33",
+      "nonEditableBackground": "#151e33",
+      "ArrowButton": {
+        "iconColor": "#d6e5ff",
+        "disabledIconColor": "#607090",
+        "nonEditableBackground": "#151e33"
+      }
+    },
+    "ComboPopup.border": "#2d3450",
+    "Component": {
+      "borderColor": "#2d3450",
+      "focusColor": "#9966ff",
+      "focusedBorderColor": "#9966ff",
+      "disabledBorderColor": "#151e33",
+      "errorFocusColor": "#ff5d8f",
+      "inactiveErrorFocusColor": "#ff5d8f",
+      "warningFocusColor": "#ff9e4f",
+      "inactiveWarningFocusColor": "#ff9e4f"
+    },
     "Popup": {
       "Header": {
         "activeBackground": "#151e33",
         "inactiveBackground": "#0f1525"
-      }
+      },
+      "borderColor": "#2d3450",
+      "inactiveBorderColor": "#151e33"
+    },
+    "PopupMenu": {
+      "background": "#151e33",
+      "borderColor": "#2d3450"
     },
     "SearchEverywhere": {
       "Tab": {
@@ -128,22 +170,14 @@
       "background": "#0f1525",
       "foreground": "#d6e5ff",
       "shortcutForeground": "#9966ff"
-    }
-  },
-  "icons": {
-    "ColorPalette": {
-      "Actions.Blue": "#3b9eff",
-      "Actions.Green": "#5df0b0",
-      "Actions.Grey": "#a0b4d7",
-      "Actions.Red": "#ff5d8f",
-      "Actions.Yellow": "#e6c276",
-      "Actions.Purple": "#9966ff",
-      "Objects.Blue": "#3b9eff",
-      "Objects.Green": "#5df0b0",
-      "Objects.Grey": "#a0b4d7",
-      "Objects.Red": "#ff5d8f",
-      "Objects.Yellow": "#e6c276",
-      "Objects.Purple": "#9966ff"
+    },
+    "MenuItem": {
+      "acceleratorForeground": "#a0b4d7"
+    },
+    "ParameterInfo": {
+      "background": "#151e33",
+      "foreground": "#d6e5ff",
+      "currentParameterForeground": "#9966ff"
     }
   }
 }

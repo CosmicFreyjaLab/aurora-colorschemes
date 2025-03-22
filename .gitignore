@@ -1,5 +1,6 @@
 .DS_Store
 Q-Context.md
+AmazonQ.md
 build/
 gradle/
 .gradle/

@@ -1,0 +1,19 @@
+{
+  "icons": {
+    "/icons/fileTypes/any_type.svg": "/theme/icons/file.svg",
+    "/icons/fileTypes/css.svg": "/theme/icons/css.svg",
+    "/icons/fileTypes/html.svg": "/theme/icons/html.svg",
+    "/icons/fileTypes/javaScript.svg": "/theme/icons/javascript.svg",
+    "/icons/fileTypes/json.svg": "/theme/icons/json.svg",
+    "/icons/fileTypes/markdown.svg": "/theme/icons/markdown.svg",
+    "/icons/fileTypes/text.svg": "/theme/icons/text.svg",
+    "/icons/fileTypes/typeScript.svg": "/theme/icons/typescript.svg",
+    "/icons/fileTypes/yaml.svg": "/theme/icons/yaml.svg",
+    "/icons/fileTypes/xml.svg": "/theme/icons/xml.svg",
+    "/icons/fileTypes/java.svg": "/theme/icons/java.svg",
+    "/icons/fileTypes/kotlin.svg": "/theme/icons/kotlin.svg",
+    "/icons/fileTypes/python.svg": "/theme/icons/python.svg",
+    "/icons/nodes/folder.svg": "/theme/icons/folder.svg",
+    "/icons/nodes/folderOpen.svg": "/theme/icons/folder-open.svg"
+  }
+}

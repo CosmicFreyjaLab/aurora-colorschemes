@@ -9,6 +9,7 @@ Perfect balance between Nordic mystique, electric vibrancy, and eye comfort. Thi
 - **Electric Accents**: Vibrant accent colors keep it modern and AI-inspired
 - **Eye Comfort**: Carefully balanced contrast for extended coding sessions
 - **Consistent Experience**: Unified design language across the entire IDE
+- **Custom File Icons**: Themed file icons that match the color palette
 
 ## Installation
 
@@ -56,7 +57,7 @@ Perfect balance between Nordic mystique, electric vibrancy, and eye comfort. Thi
 - **Keywords**: Electric purple (#9966ff)
 - **Classes/Types**: Warm yellow (#e6c276)
 - **Operators**: Bright pink (#e571b5)
-- **Variables**: Blue (#3b9eff)
+- **Variables**: Warm yellow (#e6c276)
 - **Errors**: Vibrant pink-red (#ff5d8f)
 
 ## Contributing

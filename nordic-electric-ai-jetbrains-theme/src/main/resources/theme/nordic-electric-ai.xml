@@ -183,7 +183,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="d6e5ff" />
+        <option name="FOREGROUND" value="e6c276" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -404,6 +404,46 @@
         <option name="BACKGROUND" value="1e2840" />
       </value>
     </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="JS.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="KOTLIN.NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="KOTLIN.LABEL">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="KOTLIN.VAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="KOTLIN.VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="2d3450" />
@@ -413,6 +453,16 @@
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="607090" />
+      </value>
+    </option>
+    <option name="PYTHON.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
+      </value>
+    </option>
+    <option name="PYTHON.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="e6c276" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">

@@ -15,10 +15,17 @@
             <li><b>Electric Accents</b>: Vibrant accent colors keep it modern and AI-inspired</li>
             <li><b>Eye Comfort</b>: Carefully balanced contrast for extended coding sessions</li>
             <li><b>Consistent Experience</b>: Unified design language across the entire IDE</li>
+            <li><b>Custom File Icons</b>: Themed file icons that match the color palette</li>
         </ul>
     ]]></description>
     
     <change-notes><![CDATA[
+        <h3>1.0.1</h3>
+        <ul>
+            <li>Fixed variable coloring to use consistent golden color</li>
+            <li>Improved dropdown menu styling to match button backgrounds</li>
+            <li>Enhanced UI consistency across all elements</li>
+        </ul>
         <h3>1.0.0</h3>
         <ul>
             <li>Initial release</li>
@@ -30,5 +37,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.cosmicfreyjalab.nordic-electric-ai" path="/theme/nordic-electric-ai.theme.json"/>
         <bundledColorScheme path="/theme/nordic-electric-ai.xml"/>
+        <iconMapper mappingFile="/theme/nordic-electric-ai-icons.json"/>
     </extensions>
 </idea-plugin>
