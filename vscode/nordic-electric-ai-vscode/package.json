@@ -2,8 +2,9 @@
   "name": "nordic-electric-ai",
   "displayName": "Nordic Electric AI",
   "description": "An electric AI-inspired colorscheme with Nordic/Freyja elements",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "publisher": "freyja-one",
+  "repository": "https://github.com/CosmicFreyjaLab/aurora-colorschemes",
   "engines": {
     "vscode": "^1.60.0"
   },
