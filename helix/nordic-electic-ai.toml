@@ -1,0 +1,29 @@
+name = "nordic-electric-ai"
+author = "freyja & dima"
+
+[palette]
+base = "#0E1117"
+surface = "#1E222A"
+highlight = "#264F78"
+cursor = "#FF007C"
+selection = "#3A3F4B"
+comment = "#616E88"
+keyword = "#81A1C1"
+string = "#A3BE8C"
+variable = "#D8DEE9"
+number = "#B48EAD"
+function = "#88C0D0"
+
+[ui]
+background = "base"
+text = "variable"
+cursor = "cursor"
+selection = "selection"
+
+[syntax]
+comment = "comment"
+keyword = "keyword"
+string = "string"
+variable = "variable"
+number = "number"
+function = "function"
