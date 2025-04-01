@@ -42,7 +42,7 @@ Everything gently tuned to **feel safe, yet alive**.
 
 ## 📷 Preview
 
-![Preview](./nordic-electric-ai-nocturne-preview.png)
+![Preview](https://github.com/CosmicFreyjaLab/aurora-colorschemes/blob/main/vscode/nordic-electric-ai-vscode/assets/nordic-electric-ai-nocturne-preview.png)
 
 ---
 
