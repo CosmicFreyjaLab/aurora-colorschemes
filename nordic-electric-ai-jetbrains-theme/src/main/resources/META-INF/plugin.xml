@@ -37,6 +37,9 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.cosmicfreyjalab.nordic-electric-ai" path="/theme/nordic-electric-ai.theme.json"/>
         <bundledColorScheme path="/theme/nordic-electric-ai.xml"/>
+        <!-- Provide custom file icons mapping for recent IDE versions -->
+        <iconMapping file="/theme/nordic-electric-ai-icons.json"/>
+        <!-- Backward-compatibility for older IDE versions -->
         <iconMapper mappingFile="/theme/nordic-electric-ai-icons.json"/>
     </extensions>
 </idea-plugin>
